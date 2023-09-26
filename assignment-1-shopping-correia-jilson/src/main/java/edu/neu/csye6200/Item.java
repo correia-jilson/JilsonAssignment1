@@ -41,8 +41,8 @@ public class Item {
 		
         System.out.println("Date & Time : " +dateTime);
         
-        System.out.println(item1.getItemId() + ": $" + item1.getItemCost() + " - Change: $" + change1);
-        System.out.println(item2.getItemId() + ": $" + item2.getItemCost() + " - Change: $" + change2);
+        System.out.println(item1.getItemId() + ": $" + item1.getItemCost());
+        System.out.println(item2.getItemId() + ": $" + item2.getItemCost());
         System.out.println(item3.getItemId() + ": $" + item3.getItemCost() + " - Change: $" + change3);
         
         System.out.println("Total: $" + 20 );
